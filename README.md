@@ -1,6 +1,6 @@
 # Sample Selenium Automation Project
 
-Project cover UI test cases from https://www.automationexercise.com/test_cases
+Project contains sample tess for endpoint from https://petstore.swagger.io/
 
 - Codding Patterns: Factory, Singleton
 
