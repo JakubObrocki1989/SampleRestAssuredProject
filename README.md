@@ -1,4 +1,4 @@
-# Sample Selenium Automation Project
+# Sample Rest Assured Automation Project
 
 Project contains sample tess for endpoint from https://petstore.swagger.io/
 
