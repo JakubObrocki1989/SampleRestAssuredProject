@@ -1,6 +1,6 @@
 # Sample Rest Assured Automation Project
 
-Project contains sample tess for endpoint from https://petstore.swagger.io/
+Project contains sample test for endpoint from https://petstore.swagger.io/
 
 - Codding Patterns: Factory, Singleton
 
