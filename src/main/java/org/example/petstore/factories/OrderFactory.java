@@ -7,14 +7,8 @@ import org.example.petstore.enums.OrderStatus;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.time.ZonedDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.Date;
-import java.util.Random;
 import java.util.TimeZone;
-import java.util.concurrent.TimeUnit;
-
-import static org.example.petstore.enums.OrderStatus.PLACED;
 
 public class OrderFactory extends BaseFactory {
 
@@ -26,7 +20,7 @@ public class OrderFactory extends BaseFactory {
         String nowAsISO = df.format(new Date());
         Order.OrderBuilder order = Order.builder();
         order
-                .id(faker.number().numberBetween(0,10000))
+                .id(faker.number().numberBetween(0,10))
                 .petId(faker.number().numberBetween(0,10000))
                 .quantity(faker.number().numberBetween(0,10))
                 .shipDate(nowAsISO)

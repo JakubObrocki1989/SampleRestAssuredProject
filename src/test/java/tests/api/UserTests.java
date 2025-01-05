@@ -5,7 +5,6 @@ import org.apache.http.HttpStatus;
 import org.assertj.core.api.Assertions;
 import org.example.core.api.ApiClient;
 import org.example.petstore.api.models.User;
-import org.example.petstore.api.models.pet.Pet;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
