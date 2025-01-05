@@ -6,9 +6,7 @@ import org.example.petstore.api.models.pet.PetCategory;
 import org.example.petstore.api.models.pet.PetTag;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.Random;
 
 public class PetFactory extends BaseFactory {
 
